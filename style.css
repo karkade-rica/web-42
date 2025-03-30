@@ -1,0 +1,19 @@
+.my-carousel {
+    padding: 0px;
+
+}
+.my-carousel .carousel-item {
+    display: flex;
+    max-height: 500px;
+
+}
+.my-carousel .carousel-item img {
+    object-fit: cover;
+
+}
+.logotype {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
