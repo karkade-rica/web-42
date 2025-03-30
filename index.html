@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="C:\Users\пользователь\Desktop\подготовка по конкурсу\Bootstrap 5.3.3\css\bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+  <div class="top">
+    <div class="logo">
+      <img src="logo.webp" class="logotype">
+      <div class="name">Medium<br><span class="slogan">Creative ideas<span></div>
+    </div>
+    
+      <nav>
+        <div class="menu"><a href="#one">Раздел 1</a></div>
+        <div class="menu"><a href="#two">Раздел 2</a></div>
+        <div class="menu"><a href="#three">Раздел 3</a></div>
+        <div class="menu"><a href="#four">Раздел 4</a></div>
+        <div class="menu"><a href="#five">Раздел 5</a></div>
+
+      </nav>
+    
+  </div>
+
+
+
+  <div class="container">
+     
+    <!---->
+    <!---->
+    <div class="container-fluid my-carousel">
+      <!-- carousel-fade - растворение картинки-->
+      <div id="carus" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4000">
+        <!--индикаторы нижние-->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carus" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carus" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carus" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="i1.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="i2.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="i3.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <!--индикаторы по бокам-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carus" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carus" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <br>
+    <!---->
+    <main>
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal"><ya-tr-span data-index="8-0" data-translated="true" data-source-lang="en"
+                  data-target-lang="ru" data-value="Free" data-translation="Бесплатно" data-ch="0" data-type="trSpan"
+                  style="visibility: inherit !important;">Бесплатно</ya-tr-span></h4>
+            </div>
+            <div class="card-body">
+              <ul class="list-unstyled mt-3 mb-4">
+                <li><ya-tr-span data-index="10-0" data-translated="true" data-source-lang="en" data-target-lang="ru"
+                    data-value="10 users included" data-translation="включено 10 пользователей" data-ch="0"
+                    data-type="trSpan" style="visibility: inherit !important;">включено 10 пользователей</ya-tr-span>
+                </li>
+                <li><ya-tr-span data-index="11-0" data-translated="true" data-source-lang="en" data-target-lang="ru"
+                    data-value="2 GB of storage" data-translation="2 ГБ памяти" data-ch="0" data-type="trSpan"
+                    style="visibility: inherit !important;">2 ГБ памяти</ya-tr-span></li>
+                <li><ya-tr-span data-index="12-0" data-translated="true" data-source-lang="en" data-target-lang="ru"
+                    data-value="Email support" data-translation="Поддержка по электронной почте" data-ch="0"
+                    data-type="trSpan" style="visibility: inherit !important;">Поддержка по электронной
+                    почте</ya-tr-span></li>
+                <li><ya-tr-span data-index="13-0" data-translated="true" data-source-lang="en" data-target-lang="ru"
+                    data-value="Help center access" data-translation="Доступ к справочному центру" data-ch="0"
+                    data-type="trSpan" style="visibility: inherit !important;">Доступ к справочному центру</ya-tr-span>
+                </li>
+              </ul>
+
+
+
+
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Подробнее
+              </button>
+
+              <!-- Модальное окно -->
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="staticBackdropLabel">Заголовок модального окна</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                    </div>
+                    <div class="modal-body" style="text-align: justify;">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, totam, aliquam, dolorem porro impedit
+                      nulla minima voluptates voluptas inventore sint reprehenderit vero consectetur. Quia magnam cum
+                      aliquid error, reprehenderit in! lorem*6
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal"><ya-tr-span data-index="15-0" data-translated="true" data-source-lang="en"
+                  data-target-lang="ru" data-value="Pro" data-translation="Профессиональный" data-ch="0"
+                  data-type="trSpan" style="visibility: inherit !important;">Профессиональный</ya-tr-span></h4>
+            </div>
+            <div class="card-body">
+              <ul class="list-unstyled mt-3 mb-4">
+                <li><ya-tr-span data-index="17-0" data-translated="true" data-source-lang="en" data-target-lang="ru"
+                    data-value="20 users included" data-translation="включая 20 пользователей" data-ch="0"
+                    data-type="trSpan" style="visibility: inherit !important;">включая 20 пользователей</ya-tr-span>
+                </li>
+                <li><ya-tr-span data-index="18-0" data-translated="true" data-source-lang="en" data-target-lang="ru"
+                    data-value="10 GB of storage" data-translation="10 ГБ памяти" data-ch="0" data-type="trSpan"
+                    style="visibility: inherit !important;">10 ГБ памяти</ya-tr-span></li>
+                <li><ya-tr-span data-index="19-0" data-translated="true" data-source-lang="en" data-target-lang="ru"
+                    data-value="Priority email support" data-translation="Приоритетная поддержка по электронной почте"
+                    data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Приоритетная
+                    поддержка по электронной почте</ya-tr-span></li>
+                <li><ya-tr-span data-index="20-0" data-translated="true" data-source-lang="en" data-target-lang="ru"
+                    data-value="Help center access" data-translation="Доступ к справочному центру" data-ch="1"
+                    data-type="trSpan" style="visibility: inherit !important;">Доступ к справочному центру</ya-tr-span>
+                </li>
+              </ul>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Подробнее
+              </button>
+
+              <!-- Модальное окно -->
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="staticBackdropLabel">Заголовок модального окна</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                    </div>
+                    <div class="modal-body" style="text-align: justify;">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, totam, aliquam, dolorem porro impedit
+                      nulla minima voluptates voluptas inventore sint reprehenderit vero consectetur. Quia magnam cum
+                      aliquid error, reprehenderit in! lorem*6
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card-header py-3 text-bg-primary border-primary">
+              <h4 class="my-0 fw-normal"><ya-tr-span data-index="22-0" data-translated="true" data-source-lang="en"
+                  data-target-lang="ru" data-value="Enterprise" data-translation="Предприятие" data-ch="1"
+                  data-type="trSpan" style="visibility: inherit !important;">Предприятие</ya-tr-span></h4>
+            </div>
+            <div class="card-body">
+              <ul class="list-unstyled mt-3 mb-4">
+                <li><ya-tr-span data-index="24-0" data-translated="true" data-source-lang="en" data-target-lang="ru"
+                    data-value="30 users included" data-translation="включено 30 пользователей" data-ch="0"
+                    data-type="trSpan" style="visibility: inherit !important;">включено 30 пользователей</ya-tr-span>
+                </li>
+                <li><ya-tr-span data-index="25-0" data-translated="true" data-source-lang="en" data-target-lang="ru"
+                    data-value="15 GB of storage" data-translation="15 ГБ памяти" data-ch="0" data-type="trSpan"
+                    style="visibility: inherit !important;">15 ГБ памяти</ya-tr-span></li>
+                <li><ya-tr-span data-index="26-0" data-translated="true" data-source-lang="en" data-target-lang="ru"
+                    data-value="Phone and email support" data-translation="Поддержка по телефону и электронной почте"
+                    data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Поддержка по телефону
+                    и электронной почте</ya-tr-span></li>
+                <li><ya-tr-span data-index="27-0" data-translated="true" data-source-lang="en" data-target-lang="ru"
+                    data-value="Help center access" data-translation="Доступ к справочному центру" data-ch="1"
+                    data-type="trSpan" style="visibility: inherit !important;"></ya-tr-span>
+                </li>
+              </ul>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Подробнее
+              </button>
+
+              <!-- Модальное окно -->
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="staticBackdropLabel">Заголовок модального окна</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                    </div>
+                    <div class="modal-body" style="text-align: justify;">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, totam, aliquam, dolorem porro impedit
+                      nulla minima voluptates voluptas inventore sint reprehenderit vero consectetur. Quia magnam cum
+                      aliquid error, reprehenderit in! lorem*6
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </main>
+    <!---->
+
+    </section>
+    <section id="vas">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="q7">
+              <h2 class="q8"><img src="cat.webp" width="60" height="30" alt="">ЗАПЛАНИРОВАННЫЕ МЕРОПРИЯТИЯ</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card border-primary mb-3 shadow p-3 mb-5 bg-body-tertiary rounded f9"
+              style="max-width: 2000px;">
+              <div class="card-body text-primary">
+                <h5 class="card-title f10">Выставка «Железнодорожная модель» 2024 </h5>
+                <p class="card-text f11">С 19 октября по 4 ноября 2024 года в Музее Гаража особого назначения пройдет
+                  выставка «Железнодорожная модель». Событие приурочено к юбилею Байкало-Амурской магистрали: 50 лет
+                  назад стартовал основной этап её строительства — ударная комсомольская стройка. На площади более 200
+                  кв. метров будет воздвигнут один из крупнейших в России действующих железнодорожных макетов.</p>
+                <div class="card-footer">
+                  <small class="text-body-primary">25.05.2024</small>
+                </div>
+                <br>
+                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal10">
+                  Регистрация
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel10"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel10">Выставка «Железнодорожная модель» 2024
+                        </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                          <div class="row">
+                            <div class="col-lg-1"></div>
+                            <div class="col-lg-10">
+                              <label for="fio1" class="form-label" style="color: black;">Введите своё ФИО:</label>
+                              <input type="text" id="fio1" class="form-control" required>
+                            </div>
+                            <div class="col-lg-1"></div>
+
+                          </div>
+                          <div class="row">
+                            <div class="col-lg-1"></div>
+                            <div class="col-lg-10">
+                              <label for="as1" class="form-label" style="color: black;">Почтового адреса:</label>
+                              <input type="email" id="as1" class="form-control" required>
+                            </div>
+                            <div class="col-lg-1"></div>
+
+                          </div>
+                          <div class="row">
+                            <div class="col-lg-1"></div>
+                            <div class="col-lg-10">
+                              <label for="ca1" class="form-label" style="color: black;">Количество участников:</label>
+                              <input type="number" min="1" max="100" id="ca1" class="form-control" required>
+                            </div>
+                            <div class="col-lg-1"></div>
+
+                          </div>
+                          <br>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Закрыть</button>
+                            <button type="submit" class="btn btn-primary">Отправить</button>
+                            <button type="reset" class="btn btn-primary">Отменить</button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-primary mb-3 shadow p-3 mb-5 bg-body-tertiary rounded f9"
+              style="max-width: 2000px;">
+              <div class="card-body text-primary">
+                <h5 class="card-title f10">Ёлка у Каскадеров в Парке Киноприключений 2025 </h5>
+                <p class="card-text f11">21 и 22, 28 и 29 декабря 2024 года, с 3 по 6 января 2025 года в Парке
+                  Киноприключений Мастер Панин состоится Ёлка у Каскадеров.
+                  Зрителей ждут интерактивные конкурсы и Парк экстремальных аттракционов, катание на биг футе.
+                  Новогодняя елка каскадеров 2025 будет рада встретить своих друзей. Необычное мероприятие для детей на
+                  Новый год, экстремальная обстановка и атмосфера живого праздника всем гарантированы!
+                </p>
+                <div class="card-footer">
+                  <small class="text-body-primary">15.12.2024</small>
+                </div>
+                <br>
+                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal11">
+                  Регистрация
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel11"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel11">Ёлка у Каскадеров в Парке Киноприключений
+                          2025</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                          <div class="row">
+                            <div class="col-lg-1"></div>
+                            <div class="col-lg-10">
+                              <label for="fio2" class="form-label" style="color: black;">Введите своё ФИО:</label>
+                              <input type="text" id="fio2" class="form-control" required>
+                            </div>
+                            <div class="col-lg-1"></div>
+
+                          </div>
+                          <div class="row">
+                            <div class="col-lg-1"></div>
+                            <div class="col-lg-10">
+                              <label for="as2" class="form-label" style="color: black;">Почтового адреса:</label>
+                              <input type="email" id="as2" class="form-control" required>
+                            </div>
+                            <div class="col-lg-1"></div>
+
+                          </div>
+                          <div class="row">
+                            <div class="col-lg-1"></div>
+                            <div class="col-lg-10">
+                              <label for="ca2" class="form-label" style="color: black;">Количество участников:</label>
+                              <input type="number" min="1" max="100" id="ca2" class="form-control" required>
+                            </div>
+                            <div class="col-lg-1"></div>
+
+                          </div>
+                          <br>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Закрыть</button>
+                            <button type="submit" class="btn btn-primary">Отправить</button>
+                            <button type="reset" class="btn btn-primary">Отменить</button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card border-primary mb-3 shadow p-3 mb-5 bg-body-tertiary rounded f9"
+              style="max-width: 2000px;">
+              <div class="card-body text-primary">
+                <h5 class="card-title f10">Шоу «Морская симфония» </h5>
+                <p class="card-text f11">До 10 ноября 2024 года в Москвариуме проходит шоу «Морская симфония» —
+                  уникальное сочетание музыки живого симфонического оркестра, исполняющего легендарное произведение
+                  Антонио Вивальди «Времена года», захватывающего дух выступления касаток, дельфинов и ластоногих, а
+                  также современных технологий постановки шоу.</p>
+                <div class="card-footer">
+                  <small class="text-body-primary">25.10.2024</small>
+                </div>
+                <br>
+                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal12">
+                  Регистрация
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal12" tabindex="-1" aria-labelledby="exampleModalLabel12"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel12">Шоу «Морская симфония» </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                          <div class="row">
+                            <div class="col-lg-1"></div>
+                            <div class="col-lg-10">
+                              <label for="fio3" class="form-label" style="color: black;">Введите своё ФИО:</label>
+                              <input type="text" id="fio3" class="form-control" required>
+                            </div>
+                            <div class="col-lg-1"></div>
+
+                          </div>
+                          <div class="row">
+                            <div class="col-lg-1"></div>
+                            <div class="col-lg-10">
+                              <label for="as3" class="form-label" style="color: black;">Почтового адреса:</label>
+                              <input type="email" id="as3" class="form-control" required>
+                            </div>
+                            <div class="col-lg-1"></div>
+
+                          </div>
+                          <div class="row">
+                            <div class="col-lg-1"></div>
+                            <div class="col-lg-10">
+                              <label for="ca3" class="form-label" style="color: black;">Количество участников:</label>
+                              <input type="number" min="1" max="100" id="ca3" class="form-control" required>
+                            </div>
+                            <div class="col-lg-1"></div>
+
+                          </div>
+                          <br>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Закрыть</button>
+                            <button type="submit" class="btn btn-primary">Отправить</button>
+                            <button type="reset" class="btn btn-primary">Отменить</button>
+                          </div>
+                        </form>
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-primary mb-3 shadow p-3 mb-5 bg-body-tertiary rounded f9"
+              style="max-width: 2000px;">
+              <div class="card-body text-primary">
+                <h5 class="card-title f10">День Рождения Музея Магии 2024 </h5>
+                <p class="card-text f11">С 15 по 25 октября 2024 года Музей Магии празднует свой первый День Рождения в
+                  Москве и приглашает всех юных волшебников за подарками.
+                  Красочные фотозоны, шоу фокуc различные иммерсивные шоу и мастер-классы — все это сосредоточено в
+                  Музее Магии на Новом Арбате. Не только яркие эмоции, но и классные подарки.
+                </p>
+                <div class="card-footer">
+                  <small class="text-body-primary">01.10.2024</small>
+                </div>
+                <br>
+                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal13">
+                  Регистрация
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal13" tabindex="-1" aria-labelledby="exampleModalLabel13"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel13">День Рождения Музея Магии 2024</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                          <div class="row">
+                            <div class="col-lg-1"></div>
+                            <div class="col-lg-10">
+                              <label for="fio4" class="form-label" style="color: black;">Введите своё ФИО:</label>
+                              <input type="text" id="fio4" class="form-control" required>
+                            </div>
+                            <div class="col-lg-1"></div>
+
+                          </div>
+                          <div class="row">
+                            <div class="col-lg-1"></div>
+                            <div class="col-lg-10">
+                              <label for="as4" class="form-label" style="color: black;">Почтового адреса:</label>
+                              <input type="email" id="as4" class="form-control" required>
+                            </div>
+                            <div class="col-lg-1"></div>
+
+                          </div>
+                          <div class="row">
+                            <div class="col-lg-1"></div>
+                            <div class="col-lg-10">
+                              <label for="ca4" class="form-label" style="color: black;">Количество участников:</label>
+                              <input type="number" min="1" max="100" id="ca4" class="form-control" required>
+                            </div>
+                            <div class="col-lg-1"></div>
+
+                          </div>
+                          <br>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Закрыть</button>
+                            <button type="submit" class="btn btn-primary">Отправить</button>
+                            <button type="reset" class="btn btn-primary">Отменить</button>
+                          </div>
+                        </form>
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="q7">
+              <h2 class="q8"><img src="пред работы/i.webp" width="60" height="30" alt="">ИНИЦИТАТИВЫ РЕГИОНГА</h2>
+            </div>
+            <div id="carouselExampleCaptions1" class="carousel slide" data-bs-ride="true" data-bs-pause="hover">
+
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="1500">
+                  <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col-lg-3"><br><br><br>
+                      <div class="card">
+                        <img src="пред работы/i.webp" class="card-img-top" alt="...">
+
+                      </div><br><br><br>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="card">
+                        <img src="пред работы/i.webp" class="card-img-top" alt="...">
+
+                      </div>
+                    </div>
+                    <div class="col-lg-3"><br><br><br>
+                      <div class="card">
+                        <img src="пред работы/i.webp" class="card-img-top" alt="...">
+
+                      </div><br><br><br>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                  <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col-lg-3"><br><br><br>
+                      <div class="card">
+                        <img src="пред работы/i.webp" class="card-img-top" alt="...">
+
+                      </div><br><br><br>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="card">
+                        <img src="cat.webp" class="card-img-top" alt="...">
+
+                      </div>
+                    </div>
+                    <div class="col-lg-3"><br><br><br>
+                      <div class="card">
+                        <img src="cat.webp" class="card-img-top" alt="...">
+
+                      </div><br><br><br>
+                    </div>
+
+                  </div>
+
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                  <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col-lg-3"><br><br><br>
+                      <div class="card">
+                        <img src="cat.webp" class="card-img-top" alt="...">
+
+                      </div><br><br><br>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="card">
+                        <img src="cat.webp" class="card-img-top" alt="...">
+
+                      </div>
+                    </div>
+                    <div class="col-lg-3"><br><br><br>
+                      <div class="card">
+                        <img src="cat.webp" class="card-img-top" alt="...">
+
+                      </div><br><br><br>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions1"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions1"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br>
+    <footer class="q100">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2">
+            <img class="q1" src="cat.webp" width="90" height="80" alt="">
+          </div>
+          <div class="col-lg-7">
+            <div class="q2">
+              <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav1">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#glav">ДЕСЯТИЛЕТИЯ ДЕТСТВА</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#ind">ИНИЦИТАТИВЫ РЕГИОНА</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#vas">ВЫСТАВКИ/МЕРОПРИЯТИЯ</a>
+                      </li>
+
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="q3">
+              <img src="cat.webp" width="35" height="35" alt="">
+              <img src="cat.webp" width="35" height="35" alt="">
+              <img src="cat.webp" width="35" height="35" alt=""><br>
+              <p class="q4">
+                <b>Телефон:</b>8(952)588 55-64 <br>
+                <b>Адрес:</b>Гостиный двор <br>
+                <b>Электронная почта:</b> IHFO@FAMILYA.2024.RU
+              </p>
+            </div>
+            <a href="#" class="btn btn-outline-light">ВВЕРХ</a>
+          </div>
+        </div>
+      </div>
+      <div class="as100">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <p class="q15"><b>&copy; Ю.О.Смирнов, 2024</b></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+  </div>
+
+
+
+
+
+
+  <script src="C:\Users\пользователь\Desktop\подготовка по конкурсу\Bootstrap 5.3.3\js\bootstrap.js"></script>
+</body>
+
+</html>
